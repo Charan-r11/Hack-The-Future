@@ -7,7 +7,6 @@ project_root = str(Path(__file__).parent.absolute())
 sys.path.append(project_root)
 
 import uvicorn
-from Backend.main import app
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000, reload=True) 
+    uvicorn.run("Backend.main:app", host="0.0.0.0", port=8005, reload=True) 

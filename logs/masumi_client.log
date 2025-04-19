@@ -1,0 +1,51 @@
+2025-04-19 02:09:10,505 - Backend.services.masumi_client - INFO - Masumi client initialized with API URL: https://payment.masumi.network
+2025-04-19 02:09:12,313 - Backend.services.masumi_client - INFO - Masumi client initialized with API URL: https://payment.masumi.network
+2025-04-19 02:09:18,037 - Backend.services.masumi_client - INFO - Masumi client initialized with API URL: https://payment.masumi.network
+2025-04-19 02:09:50,499 - Backend.services.masumi_client - INFO - Masumi client initialized with API URL: https://payment.masumi.network
+2025-04-19 02:09:54,222 - Backend.services.masumi_client - INFO - Masumi client initialized with API URL: https://payment.masumi.network
+2025-04-19 02:10:37,990 - Backend.services.masumi_client - INFO - Masumi client initialized with API URL: https://payment.masumi.network
+2025-04-19 02:10:41,258 - Backend.services.masumi_client - INFO - Masumi client initialized with API URL: https://payment.masumi.network
+2025-04-19 02:10:47,346 - Backend.services.masumi_client - INFO - Masumi client initialized with API URL: https://payment.masumi.network
+2025-04-19 02:10:49,367 - Backend.services.masumi_client - INFO - Masumi client initialized with API URL: https://payment.masumi.network
+2025-04-19 02:11:12,174 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:11:16,041 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:11:32,611 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:11:34,962 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:11:56,272 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:12:01,934 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:12:06,441 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:12:08,724 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:12:12,587 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:12:18,924 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:12:20,732 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:12:23,914 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:12:33,042 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:12:34,632 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:12:38,931 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:14:28,708 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:14:32,391 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:14:42,517 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:15:57,501 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:16:02,706 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:16:08,874 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:16:11,455 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:17:52,833 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:17:56,518 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:18:01,005 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:18:04,557 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:19:56,772 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:20:02,854 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:20:08,127 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:20:10,464 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:21:43,216 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:21:46,957 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:21:50,273 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:21:52,567 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:23:50,267 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:23:51,463 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:23:56,843 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:23:59,888 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:27:10,045 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:27:13,935 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:27:31,659 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:27:36,102 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod

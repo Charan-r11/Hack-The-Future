@@ -1,0 +1,13 @@
+This is a test document for testing the analyze endpoint. It contains some sample text that we can use to verify the functionality of our ConsentIQ API.
+
+Important Rights:
+- You have the right to access your data
+- You have the right to request deletion
+
+Risks and Warnings:
+- Warning: Data may be shared with third parties
+- Risk: Unauthorized access may occur
+
+Responsibilities:
+- You must keep your password secure
+- You shall notify us of any unauthorized access

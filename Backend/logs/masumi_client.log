@@ -1,0 +1,115 @@
+2025-04-19 02:12:38,498 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:14:28,702 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:14:28,704 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:14:32,391 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:14:32,391 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:14:42,517 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:14:42,517 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:15:29,862 - Backend.services.masumi_client - INFO - _make_request:81 - Making POST request to https://payment.masumi.network/verify
+2025-04-19 02:15:29,863 - Backend.services.masumi_client - DEBUG - _make_request:82 - Request headers: {
+  "Authorization": "Bearer iofsnaiojdoiewqajdriknjonasfoinasd",
+  "Content-Type": "application/json",
+  "X-Request-ID": "20250419021529862300",
+  "X-Client-Version": "1.0.0"
+}
+2025-04-19 02:15:29,864 - Backend.services.masumi_client - DEBUG - _make_request:83 - Request payload: {
+  "document_hash": "446f2aa6375af5d1a3255e001ba54f428c652bd31f112a3b0c64b3ba7b1f276c",
+  "document_text": "Sample Legal Agreement - Mock Consent Form\nThis document outlines the agreement between the Service Provider and the\nClient.\nThe Client agrees to the following terms:\n1. The Client shall make all payments by the 5th of each month. Late payments\nmay incur a $25 fee.\n2. The Service Provider reserves the right to terminate services with a 7-day\nnotice in case of non-compliance.\n3. The Client grants permission for the Provider to share anonymized data with\nthird-party analytics platforms.\n4. This agreement is valid for 12 months from the date of signature.\n5. Both parties retain the right to revoke the agreement under mutual consent or\nlegal obligation.\nBy signing this document, the Client acknowledges understanding of the terms\nstated above.\n"
+}
+2025-04-19 02:15:30,118 - Backend.services.masumi_client - INFO - _make_request:88 - Response received in 0.26 seconds
+2025-04-19 02:15:30,119 - Backend.services.masumi_client - DEBUG - _make_request:91 - Response status: 404
+2025-04-19 02:15:30,119 - Backend.services.masumi_client - DEBUG - _make_request:92 - Response text: {"status":"error","error":{"message":"Can not POST /verify"}}
+2025-04-19 02:15:30,121 - Backend.services.masumi_client - INFO - _make_request:81 - Making POST request to https://payment.masumi.network/register
+2025-04-19 02:15:30,121 - Backend.services.masumi_client - DEBUG - _make_request:82 - Request headers: {
+  "Authorization": "Bearer iofsnaiojdoiewqajdriknjonasfoinasd",
+  "Content-Type": "application/json",
+  "X-Request-ID": "20250419021530120958",
+  "X-Client-Version": "1.0.0"
+}
+2025-04-19 02:15:30,121 - Backend.services.masumi_client - DEBUG - _make_request:83 - Request payload: {
+  "document_hash": "446f2aa6375af5d1a3255e001ba54f428c652bd31f112a3b0c64b3ba7b1f276c",
+  "document_text": "Sample Legal Agreement - Mock Consent Form\nThis document outlines the agreement between the Service Provider and the\nClient.\nThe Client agrees to the following terms:\n1. The Client shall make all payments by the 5th of each month. Late payments\nmay incur a $25 fee.\n2. The Service Provider reserves the right to terminate services with a 7-day\nnotice in case of non-compliance.\n3. The Client grants permission for the Provider to share anonymized data with\nthird-party analytics platforms.\n4. This agreement is valid for 12 months from the date of signature.\n5. Both parties retain the right to revoke the agreement under mutual consent or\nlegal obligation.\nBy signing this document, the Client acknowledges understanding of the terms\nstated above.\n",
+  "network": "preprod"
+}
+2025-04-19 02:15:30,654 - Backend.services.masumi_client - INFO - _make_request:88 - Response received in 0.53 seconds
+2025-04-19 02:15:30,654 - Backend.services.masumi_client - DEBUG - _make_request:91 - Response status: 404
+2025-04-19 02:15:30,655 - Backend.services.masumi_client - DEBUG - _make_request:92 - Response text: {"status":"error","error":{"message":"Can not POST /register"}}
+2025-04-19 02:15:57,499 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:15:57,502 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:16:02,705 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:16:02,705 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:16:08,874 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:16:08,874 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:16:11,451 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:16:11,454 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:16:23,911 - Backend.services.masumi_client - INFO - _make_request:81 - Making POST request to https://payment.masumi.network/verify
+2025-04-19 02:16:23,913 - Backend.services.masumi_client - DEBUG - _make_request:82 - Request headers: {
+  "Authorization": "Bearer iofsnaiojdoiewqajdriknjonasfoinasd",
+  "Content-Type": "application/json",
+  "X-Request-ID": "20250419021623911922",
+  "X-Client-Version": "1.0.0"
+}
+2025-04-19 02:16:23,913 - Backend.services.masumi_client - DEBUG - _make_request:83 - Request payload: {
+  "document_hash": "446f2aa6375af5d1a3255e001ba54f428c652bd31f112a3b0c64b3ba7b1f276c",
+  "document_text": "Sample Legal Agreement - Mock Consent Form\nThis document outlines the agreement between the Service Provider and the\nClient.\nThe Client agrees to the following terms:\n1. The Client shall make all payments by the 5th of each month. Late payments\nmay incur a $25 fee.\n2. The Service Provider reserves the right to terminate services with a 7-day\nnotice in case of non-compliance.\n3. The Client grants permission for the Provider to share anonymized data with\nthird-party analytics platforms.\n4. This agreement is valid for 12 months from the date of signature.\n5. Both parties retain the right to revoke the agreement under mutual consent or\nlegal obligation.\nBy signing this document, the Client acknowledges understanding of the terms\nstated above.\n"
+}
+2025-04-19 02:16:24,518 - Backend.services.masumi_client - INFO - _make_request:88 - Response received in 0.61 seconds
+2025-04-19 02:16:24,518 - Backend.services.masumi_client - DEBUG - _make_request:91 - Response status: 404
+2025-04-19 02:16:24,518 - Backend.services.masumi_client - DEBUG - _make_request:92 - Response text: {"status":"error","error":{"message":"Can not POST /verify"}}
+2025-04-19 02:16:24,520 - Backend.services.masumi_client - INFO - _make_request:81 - Making POST request to https://payment.masumi.network/register
+2025-04-19 02:16:24,520 - Backend.services.masumi_client - DEBUG - _make_request:82 - Request headers: {
+  "Authorization": "Bearer iofsnaiojdoiewqajdriknjonasfoinasd",
+  "Content-Type": "application/json",
+  "X-Request-ID": "20250419021624520138",
+  "X-Client-Version": "1.0.0"
+}
+2025-04-19 02:16:24,520 - Backend.services.masumi_client - DEBUG - _make_request:83 - Request payload: {
+  "document_hash": "446f2aa6375af5d1a3255e001ba54f428c652bd31f112a3b0c64b3ba7b1f276c",
+  "document_text": "Sample Legal Agreement - Mock Consent Form\nThis document outlines the agreement between the Service Provider and the\nClient.\nThe Client agrees to the following terms:\n1. The Client shall make all payments by the 5th of each month. Late payments\nmay incur a $25 fee.\n2. The Service Provider reserves the right to terminate services with a 7-day\nnotice in case of non-compliance.\n3. The Client grants permission for the Provider to share anonymized data with\nthird-party analytics platforms.\n4. This agreement is valid for 12 months from the date of signature.\n5. Both parties retain the right to revoke the agreement under mutual consent or\nlegal obligation.\nBy signing this document, the Client acknowledges understanding of the terms\nstated above.\n",
+  "network": "preprod"
+}
+2025-04-19 02:16:25,052 - Backend.services.masumi_client - INFO - _make_request:88 - Response received in 0.53 seconds
+2025-04-19 02:16:25,053 - Backend.services.masumi_client - DEBUG - _make_request:91 - Response status: 404
+2025-04-19 02:16:25,053 - Backend.services.masumi_client - DEBUG - _make_request:92 - Response text: {"status":"error","error":{"message":"Can not POST /register"}}
+2025-04-19 02:17:52,833 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:17:52,834 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:17:56,503 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:17:56,527 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:18:01,006 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:18:01,057 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:18:04,479 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:18:04,560 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:19:56,772 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:19:56,772 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:20:02,853 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:20:02,919 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:20:07,860 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:20:07,899 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:20:10,446 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:20:10,462 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:21:43,306 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:21:43,306 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:21:46,929 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:21:47,091 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:21:50,277 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:21:50,296 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:21:52,567 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:21:52,567 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:22:14,691 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:23:50,267 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:23:50,268 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:23:51,462 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:23:51,463 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:23:56,764 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:23:56,766 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:23:59,907 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:24:04,570 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:27:10,044 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:27:10,044 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:27:14,057 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:27:14,058 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:27:31,658 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:27:31,658 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:27:36,102 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:27:36,102 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod
+2025-04-19 02:27:44,154 - Backend.services.masumi_client - INFO - __init__:63 - Masumi client initialized with API URL: https://payment.masumi.network, network: preprod

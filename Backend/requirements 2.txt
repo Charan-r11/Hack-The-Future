@@ -1,0 +1,17 @@
+fastapi==0.109.2
+uvicorn==0.27.1
+python-multipart==0.0.9
+pydantic==2.6.1
+PyMuPDF==1.23.8
+requests==2.31.0
+anthropic==0.18.1
+python-dotenv==1.0.1
+sentence-transformers==2.5.1
+transformers==4.38.2
+torch==2.2.1
+sentencepiece==0.2.0
+accelerate==0.28.0
+numpy==1.26.4
+openai==1.12.0
+crewai==0.11.0
+langchain==0.1.9 

@@ -1,3 +1,3 @@
 """
-Routes package for the ConsentIQ application.
+Routes package for the document analysis system.
 """ 
