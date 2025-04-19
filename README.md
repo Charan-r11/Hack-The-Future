@@ -1,23 +1,224 @@
-# ConsentIQ
+# ConsentIQ - AI Document Analysis Platform
 
-A sleek, dark-themed web app that helps users understand complex legal and consent documents by simplifying them using AI. Upload your lease, medical form, or agreement — our AI will flag key ⚠️ risks, ✅ rights, and 📌 responsibilities in plain English.
+![ConsentIQ Logo](frontend/public/favicon.ico)
 
-## ✨ Features
+ConsentIQ is an AI-powered document analysis platform that helps users understand complex legal and medical documents. It provides clear, immediate understanding by breaking down documents into risks, rights, and responsibilities.
 
-- 🔍 Upload and analyze PDF files
-- 📁 Industry-specific categories (e.g., Housing, IT, Legal, etc.)
-- 🧠 GPT-4o summarization and clause breakdown
-- 🎯 Flag risk, rights, and responsibilities automatically
-- 💬 Chat-style summary interface
-- 🌙 Beautiful dark theme with glowing UI
-- 🖱️ Drag-and-drop file upload
-- 🧾 Multiple PDF file support
+## 🌟 Features
 
-## Project Structure
+- **Smart Document Analysis**: Analyzes PDFs and extracts key information using AI
+- **Trust Score**: Verifies document authenticity via Masumi blockchain API
+- **Interactive UI**: Modern, responsive interface with real-time analysis
+- **Multi-language Support**: Toggle between different languages (in development)
+- **Voice Reading**: Audio playback of document analysis (in development)
 
-- `Backend/`: Contains the backend implementation
-- `Frontend/`: Contains the frontend implementation
+## 🚀 Tech Stack
 
-## Getting Started
+### Frontend
 
-Instructions for setting up and running the project will be added here.
+- React + Vite
+- TypeScript
+- Tailwind CSS
+- Shadcn/ui Components
+- Axios for API calls
+- Zustand for State Management
+
+### Backend
+
+- FastAPI
+- Python 3.9+
+- OpenAI GPT-4
+- Masumi Blockchain API
+- PDF Processing Tools
+
+## 📋 Prerequisites
+
+- Node.js 16+
+- Python 3.9+
+- OpenAI API Key
+- Masumi API Key (optional for trust score)
+
+## 🛠️ Installation
+
+### Backend Setup
+
+1. Navigate to the Backend directory:
+
+```bash
+cd Backend
+```
+
+2. Create and activate virtual environment:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
+
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Create .env file:
+
+```bash
+OPENAI_API_KEY=your_api_key_here
+MASUMI_API_KEY=your_masumi_api_key_here
+```
+
+### Frontend Setup
+
+1. Navigate to the Frontend directory:
+
+```bash
+cd frontend
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+## 🏃‍♂️ Running the Application
+
+1. Start the backend server (from Backend directory):
+
+```bash
+uvicorn main:app --reload --port 8000
+```
+
+2. Start the frontend development server (from frontend directory):
+
+```bash
+npm run dev
+```
+
+3. Access the application at `http://localhost:8081`
+
+## 📁 Project Structure
+
+### Frontend Structure
+
+```
+frontend/
+├── src/
+│   ├── api/              # API client and hooks
+│   ├── components/       # Reusable UI components
+│   ├── hooks/           # Custom React hooks
+│   ├── pages/           # Page components
+│   ├── store/           # Zustand store
+│   └── App.tsx          # Main application component
+```
+
+### Backend Structure
+
+```
+Backend/
+├── models/              # Data models and schemas
+├── routes/             # API route handlers
+├── services/           # Business logic and external services
+└── main.py            # FastAPI application entry point
+```
+
+## 🔍 Key Components
+
+### Frontend Components
+
+#### Results Page (`frontend/src/pages/Results.tsx`)
+
+- Displays document analysis results
+- Shows trust score visualization
+- Provides tabbed interface for risks, rights, and responsibilities
+
+#### Document Store (`frontend/src/store/documentStore.ts`)
+
+```typescript
+interface DocumentStore {
+  file: File | null;
+  category: string | null;
+  extractedText: string;
+  analysis: {
+    summary: string;
+    flags: {
+      risks: string[];
+      rights: string[];
+      responsibilities: string[];
+    };
+  };
+}
+```
+
+#### Results Data Hook (`frontend/src/hooks/useResultsData.ts`)
+
+- Manages API calls for document analysis
+- Handles loading and error states
+- Provides analysis results to components
+
+### Backend Components
+
+#### Document Processor (`Backend/services/document_processor.py`)
+
+- Handles PDF text extraction
+- Integrates with OpenAI for analysis
+- Generates structured analysis results
+
+#### API Endpoints
+
+1. Document Upload and Analysis
+
+```python
+@app.post("/upload")
+async def upload_document(
+    file: UploadFile = File(...),
+    category: str = Form(...)
+) -> AnalysisResponse
+```
+
+2. Trust Score Verification
+
+```python
+@app.post("/trust")
+async def verify_trust(
+    doc_hash: str,
+    wallet: str
+) -> TrustScore
+```
+
+## 🔐 Security
+
+- CORS enabled for frontend origin
+- File type validation for uploads
+- Secure API key handling
+- Rate limiting on endpoints
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 👥 Team
+
+- Frontend Development: [Your Name]
+- Backend Development: [Your Name]
+- UI/UX Design: [Your Name]
+
+## 🙏 Acknowledgments
+
+- OpenAI for GPT-4 API
+- Masumi for blockchain verification
+- Shadcn for UI components
+- All contributors and supporters
+
+---
+
+Made with ❤️ for Hack The Future
