@@ -208,11 +208,13 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👥 Team
 
-- Frontend Development: [Your Name]
-- Backend Development: [Your Name]
-- UI/UX Design: [Your Name]
+- Anishka - Backend/AI Integration
+- Charan - Frontend
+- Harshith Jella - Full Stack/ Project Lead
+- Suptha - Blockchain Integrator 
+- Pearl - Frontend 
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - OpenAI for GPT-4 API
 - Masumi for blockchain verification
