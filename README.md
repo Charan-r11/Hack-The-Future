@@ -1,6 +1,5 @@
 # ConsentIQ - AI Document Analysis Platform
 
-![ConsentIQ Logo](frontend/public/favicon.ico)
 
 ConsentIQ is an AI-powered document analysis platform that helps users understand complex legal and medical documents. It provides clear, immediate understanding by breaking down documents into risks, rights, and responsibilities.
 
