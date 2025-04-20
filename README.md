@@ -36,6 +36,7 @@ ConsentIQ is an AI-powered document analysis platform that helps users understan
 - Python 3.9+
 - OpenAI API Key
 - Masumi API Key (optional for trust score)
+- Crewai API Key (Optional)
 
 ## 🛠️ Installation
 
