@@ -186,6 +186,44 @@ async def verify_trust(
     wallet: str
 ) -> TrustScore
 ```
+## 💸 Monetization Strategy
+
+ConsentIQ is designed with a flexible, scalable monetization model that aligns with real-world legal and healthcare document workflows:
+
+🆓 Freemium Tier
+
+Free Tier Includes:
+
+Document upload
+
+AI summary + clause flagging (risks, rights, responsibilities)
+
+View-only chatbot replies (limited)
+
+Pro Tier Unlocks:
+
+Unlimited AI chat interactions
+
+Wallet/org verification via Masumi (simulated)
+
+Consent certificate downloads
+
+Priority analysis with full clause breakdown
+
+🪙 Masumi Token-Based Access (Simulated)
+
+Users receive a starting token balance (e.g. 10 tokens)
+
+Token usage:
+
+5 tokens per AI chat session
+
+5 tokens to generate a consent certificate
+
+3 tokens to verify a wallet/org (when live)
+
+Token balance tracked in memory (MVP) or via user ID/session
+
 
 ## 🔐 Security
 
