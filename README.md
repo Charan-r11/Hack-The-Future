@@ -6,10 +6,10 @@ ConsentIQ is an AI-powered document analysis platform that helps users understan
 ## 🌟 Features
 
 - **Smart Document Analysis**: Analyzes PDFs and extracts key information using AI
-- **Trust Score**: Verifies document authenticity via Masumi blockchain API
+- **Trust Score**: Verifies document authenticity via Masumi blockchain API (in development )
 - **Interactive UI**: Modern, responsive interface with real-time analysis
 - **Multi-language Support**: Toggle between different languages (in development)
-- **Voice Reading**: Audio playback of document analysis (in development)
+- **Voice Reading**: Audio playback of document analysis
 
 ## 🚀 Tech Stack
 
